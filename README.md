@@ -1,4 +1,4 @@
-# 🎨 Creative Intelligence Toolkit
+# Creative Intelligence Toolkit
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Google Gemini](https://img.shields.io/badge/Google%20Gemini-Multimodal-8E75B2.svg)](https://ai.google.dev/)
@@ -16,7 +16,7 @@ This repository is structured into modular, brand-agnostic packages:
 
 ---
 
-## 🏗️ Folder Structure
+## Folder Structure
 
 ```text
 creative-intelligence-toolkit/
@@ -56,7 +56,7 @@ creative-intelligence-toolkit/
 
 ---
 
-## 🚀 Quickstart & Installation
+## Quickstart & Installation
 
 ### 1. Prerequisites
 - Python 3.10+
@@ -94,7 +94,7 @@ Open `.env` and fill in:
 
 ---
 
-## 📦 Package Overview
+## Package Overview
 
 ### 1. Social Asset Downloader (`social_asset_downloader`)
 Exposes downloading strategies conforming to `BaseDownloader` that fetch media files asynchronously:
@@ -120,7 +120,7 @@ Handles downstream exports and notifications:
 
 ---
 
-## 🧪 Testing & Verification
+## Testing & Verification
 
 Run the automated pytest suite:
 
