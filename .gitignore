@@ -1,0 +1,58 @@
+# =============================================================================
+# Creative Intelligence Toolkit - Git Ignore Rules
+# =============================================================================
+
+# --- Environment Secrets & Credentials ---
+.env*
+**/.env
+!.env.example
+!.env.template
+*.key
+*.pem
+*.token
+credentials.json
+client_secrets*.json
+
+# --- Python Build, Cache & Test Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.tox/
+
+# --- Virtual Environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Downloaded Assets & Media (preserve folder structure) ---
+downloaded_assets/*
+!downloaded_assets/.gitkeep
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# --- Generated Reports (preserve folder structure) ---
+reports/*
+!reports/.gitkeep
+*.csv
+
+# --- IDE & OS Metadata ---
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
